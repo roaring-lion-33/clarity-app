@@ -1,0 +1,14 @@
+#!/bin/bash
+echo "🧪 Running all tests..."
+
+echo "🧪 Rails API tests:"
+cd apps/api
+bundle exec rspec
+
+cd ../..
+echo "🧪 Web tests:"
+cd apps/web
+yarn test
+
+cd ../..
+echo "🧪 Mobile tests (skipped or handled in CI)"

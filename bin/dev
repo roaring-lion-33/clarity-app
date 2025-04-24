@@ -1,0 +1,3 @@
+#!/bin/bash
+echo "🚀 Starting all dev servers in parallel..."
+turbo run dev --parallel

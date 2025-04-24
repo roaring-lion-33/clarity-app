@@ -1,0 +1,12 @@
+#!/bin/bash
+echo "🧹 Running linters..."
+
+echo "🔍 Web lint:"
+cd apps/web
+yarn lint || echo "Linting issues in web"
+
+echo "🔍 UI package lint:"
+cd ../../packages/ui
+yarn lint || echo "Linting issues in ui"
+
+cd ../../

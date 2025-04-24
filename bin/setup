@@ -1,0 +1,13 @@
+#!/bin/bash
+echo "🔧 Setting up Clarity TurboRepo..."
+
+echo "📦 Installing JS dependencies..."
+yarn install
+
+echo "🚀 Setting up Rails API..."
+cd apps/api
+bundle install
+bin/rails db:setup
+
+cd ../..
+echo "✅ Setup complete!"

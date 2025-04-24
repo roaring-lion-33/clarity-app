@@ -1,0 +1,11 @@
+#!/bin/bash
+echo "🗑️ Resetting local setup..."
+
+rm -rf node_modules
+rm -rf apps/api/tmp
+rm -rf apps/api/log
+rm -rf apps/web/.next
+rm -rf apps/mobile/.expo
+
+echo "🔁 Re-running setup..."
+bin/setup

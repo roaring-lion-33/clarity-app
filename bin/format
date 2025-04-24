@@ -1,0 +1,10 @@
+#!/bin/bash
+echo "🎨 Formatting code..."
+
+cd apps/web
+yarn format
+
+cd ../../packages/ui
+yarn format
+
+cd ../../
