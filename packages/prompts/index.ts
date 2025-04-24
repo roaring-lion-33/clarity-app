@@ -1,0 +1,1 @@
+export const dailyPrompt = () => 'What are you feeling today and why?';

@@ -1,0 +1,8 @@
+{
+  "name": "clarity",
+  "private": true,
+  "workspaces": ["apps/*", "packages/*"],
+  "devDependencies": {
+    "turbo": "latest"
+  }
+}

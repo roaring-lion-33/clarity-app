@@ -1,0 +1,63 @@
+# === Global ===
+node_modules/
+dist/
+build/
+.env
+.env.local
+.env.development
+.env.production
+.env.*.local
+.DS_Store
+*.log
+*.tmp
+*.swp
+*.lock
+
+# === TurboRepo ===
+turbo/
+.out/
+.cache/
+
+# === Web (Next.js) ===
+apps/web/.next/
+apps/web/out/
+apps/web/public/build/
+apps/web/.turbo/
+apps/web/coverage/
+
+# === Mobile (Expo) ===
+apps/mobile/.expo/
+apps/mobile/.expo-shared/
+apps/mobile/android/
+apps/mobile/ios/
+apps/mobile/web-build/
+apps/mobile/coverage/
+
+# === Rails API ===
+apps/api/log/
+apps/api/tmp/
+apps/api/db/*.sqlite3
+apps/api/db/*.sqlite3-journal
+apps/api/public/assets/
+apps/api/public/packs/
+apps/api/public/packs-test/
+apps/api/node_modules/
+apps/api/.bundle/
+apps/api/vendor/bundle/
+apps/api/storage/
+apps/api/coverage/
+
+# === VSCode ===
+.vscode/*
+!.vscode/settings.json
+!.vscode/extensions.json
+
+# === macOS ===
+*.DS_Store
+
+# === Misc ===
+.idea/
+*.iml
+*.sublime-project
+*.sublime-workspace
+*.bak

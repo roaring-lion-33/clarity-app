@@ -1,0 +1,1 @@
+export const Button = () => '<button class="px-4 py-2 rounded bg-indigo-600 text-white">Click Me</button>';
